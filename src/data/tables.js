@@ -1,0 +1,17 @@
+export const tables = [
+  { id: 1, name: 'Bàn 01', capacity: 2, status: 'available', floor: 1 },
+  { id: 2, name: 'Bàn 02', capacity: 2, status: 'occupied', floor: 1, currentOrder: 'ORD-002' },
+  { id: 3, name: 'Bàn 03', capacity: 4, status: 'available', floor: 1 },
+  { id: 4, name: 'Bàn 04', capacity: 4, status: 'occupied', floor: 1, currentOrder: 'ORD-008' },
+  { id: 5, name: 'Bàn 05', capacity: 4, status: 'available', floor: 1 },
+  { id: 6, name: 'Bàn 06', capacity: 6, status: 'reserved', floor: 1 },
+  { id: 7, name: 'Bàn 07', capacity: 2, status: 'available', floor: 1 },
+  { id: 8, name: 'Bàn 08', capacity: 4, status: 'occupied', floor: 1, currentOrder: 'ORD-003' },
+  { id: 9, name: 'Bàn 09', capacity: 8, status: 'available', floor: 2 },
+  { id: 10, name: 'Bàn 10', capacity: 4, status: 'available', floor: 2 },
+  { id: 11, name: 'Bàn 11', capacity: 2, status: 'occupied', floor: 2, currentOrder: 'ORD-011' },
+  { id: 12, name: 'Bàn 12', capacity: 6, status: 'available', floor: 2 },
+  { id: 13, name: 'Bàn 13', capacity: 4, status: 'reserved', floor: 2 },
+  { id: 14, name: 'Bàn 14', capacity: 2, status: 'available', floor: 2 },
+  { id: 15, name: 'Bàn 15', capacity: 4, status: 'available', floor: 2 },
+]
